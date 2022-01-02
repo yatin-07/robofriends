@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import CardList from './CardList';
 import 'tachyons';
-import {robots} from './robots';
+import App from './App'
 
 
-ReactDOM.render(
-          <CardList robots = {robots} />
-  ,document.getElementById('root'));
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 reportWebVitals();
